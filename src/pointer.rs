@@ -1,5 +1,5 @@
 #[derive(Clone, Copy)]
-pub struct Pointer(u16);
+pub struct Pointer(pub u16);
 
 impl Default for Pointer {
     fn default() -> Self {

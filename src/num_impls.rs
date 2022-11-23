@@ -205,3 +205,8 @@ macro_rules! ops {
         )*
     };
 }
+
+ops! {
+    (Register, u8)
+    (Pointer, u16)
+}
